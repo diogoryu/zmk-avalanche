@@ -30,11 +30,11 @@
 
         default_layer {
             bindings = <
-&tdlayer 2 GRAVE  &kp N1    &kp N2   &kp N3     &kp N4          &kp N5                                                 &kp N6                &kp N7                 &kp N8   &kp N9    &kp N0     &kp MINUS
-&kp ESCAPE        &kp Q     &kp W    &kp E      &kp R           &kp T                                                  &kp Y                 &kp U                  &kp I    &kp O     &kp P      &kp BACKSPACE
-&kp TAB           &kp LALT  &kp A    &kp S      &kp D           &kp F                &kp G                                                   &kp H                  &kp J    &kp K     &kp L      &kp SEMI       &kp SQT           &kp HOME
-&kp TAB           &kp Z     &kp X    &kp C      &kp V           &kp B                &kp LS(DEL)  &kp LS(C_VOLUME_UP)  &tdlayer 3 BACKSPACE  &kp RIGHT_PARENTHESIS  &kp N    &kp M     &kp COMMA  &kp DOT        &tdlayer 2 SLASH  &tdlayer 2 ESC
-                  &kp LGUI  &kp END  &kp SPACE  &kp LEFT_SHIFT  &tdlayer 0 KP_ENTER                                    &tdlayer 1 KP_ENTER   &kp ENTER              &kp RET  &kp RALT  &kp BSPC
+&tdlayer 2 GRAVE  &kp N1    &kp N2            &kp N3     &kp N4          &kp N5                                                 &kp N6                &kp N7                 &kp N8   &kp N9    &kp N0     &kp MINUS
+&kp ESCAPE        &kp Q     &kp W             &kp E      &kp R           &kp T                                                  &kp Y                 &kp U                  &kp I    &kp O     &kp P      &kp BACKSPACE
+&kp TAB           &kp LALT  &kp A             &kp S      &kp D           &kp F                &kp G                                                   &kp H                  &kp J    &kp K     &kp L      &kp SEMI       &kp SQT              &kp HOME
+&kp TAB           &kp Z     &kp X             &kp C      &kp V           &kp B                &kp LS(DEL)  &kp LS(C_VOLUME_UP)  &tdlayer 3 BACKSPACE  &kp RIGHT_PARENTHESIS  &kp N    &kp M     &kp COMMA  &kp DOT        &tdlayer 2 KP_SLASH  &tdlayer 2 ESC
+                  &kp LGUI  &kp LEFT_CONTROL  &kp SPACE  &kp LEFT_SHIFT  &tdlayer 0 KP_ENTER                                    &tdlayer 1 KP_ENTER   &kp ENTER              &kp RET  &kp RALT  &kp BSPC
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -52,7 +52,7 @@
 
         numbers_layer {
             bindings = <
-&none  &kp F5  &kp F5        &kp F6            &kp F7        &kp F8                    &none     &none      &none      &none    &none     &none
+&none  &kp F5  &kp F6        &kp F7            &kp F7        &kp F8                    &none     &none      &none      &none    &none     &none
 &none  &none   &none         &none             &none         &none                     &kp LBKT  &kp N7     &kp N8     &kp N9   &kp RBKT  &none
 &none  &none   &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp DELETE  &none                   &kp SEMI   &kp N4     &kp N5   &kp N6    &kp EQUAL  &none     &none
 &none  &none   &none         &none             &none         &none       &none  &none  &none     &none      &kp GRAVE  &kp N1   &kp N2    &kp N3     &kp BSLH  &none
